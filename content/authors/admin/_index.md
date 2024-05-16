@@ -31,7 +31,7 @@ bio: ''
 interests:
   - Natural Language Processing
   - Narratives
-  # - Computational Social Science
+  - Computational Social Science
 
 # Education to show in About widget
 education:
@@ -121,10 +121,10 @@ I’m David and welcome to my website!
 
 I am a Master’s student in Computer Science at [McGill University](https://www.cs.mcgill.ca/) co-supervised by [Prof. Derek Ruths](https://derekruths.com/) and [Prof. Andrew Piper](http://piperlab.mcgill.ca/about.html) as a part of the [Network Dynamics Lab](https://www.linkedin.com/company/network-dynamics-lab/) and [.txtlab](https://txtlab.org/). I’m (very) broadly interested in social issues and social dynamics, and how NLP can help us better understand them. In my master’s research, I’m using NLP to study narratives, both from a cultural values standpoint, but also towards better understanding how narratives impact people’s beliefs and behaviour, and influence societal discourse. Overall, I’m an advocate for using AI and data science to help create positive change and make technology beneficial for everyone.
 
-Before starting my master’s I completed a Bachelor’s degree in Computer Science at [Carleton University](https://carleton.ca/scs/). During my degree, I had experiences working as a Machine Learning Intern at [Kinaxis](https://www.kinaxis.com/en) and a Data Scientist at [Global Affairs Canada](https://www.international.gc.ca/global-affairs-affaires-mondiales/home-accueil.aspx?lang=eng). I also volunteered as a Workshop Lead for [Carleton University’s AI Society](https://carletonai.com/).  
+Before starting my master’s I completed a Bachelor’s degree in Computer Science at [Carleton University](https://carleton.ca/scs/). During my degree, I had experiences working as a Machine Learning Intern at [Kinaxis](https://www.kinaxis.com/en) and a Data Scientist at [Global Affairs Canada](https://www.international.gc.ca/global-affairs-affaires-mondiales/home-accueil.aspx?lang=eng). I also lead workshops for [Carleton University’s AI Society](https://carletonai.com/).  
 
 In another life, I taught English as an [Assistant Language Teacher](https://interacnetwork.com/) in Japan, and in another other life, I studied Physics and Mathematics at the [University of Ottawa](https://www.uottawa.ca/faculty-science/physics) and was briefly a solar cell researcher at the [SUNLAB](https://sunlab.ca/).
 
-Outside of research, I enjoy being outdoors, going on adventures, cooking, and learning about world history, religions, psychology, and a bunch of other stuff. 
+Outside of research, I enjoy being outdoors (backpacking, climbing, skiing, etc.), going on adventures, cooking, and learning about world history, religions, psychology, and a bunch of other stuff. 
 
 {style="text-align: left;"}
