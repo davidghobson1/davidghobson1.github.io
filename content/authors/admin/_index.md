@@ -117,11 +117,11 @@ social:
 highlight_name: true
 ---
 
-Hey there! I’m David and welcome to my website!
+I’m David and welcome to my website!
 
-I am a Master’s student in computer science at McGill University co-supervised by Prof. Derek Ruths and Prof. Andrew Piper as a part of the Network Dynamics Lab and .txtlab. I’m (very) broadly interested in social issues and social dynamics, and how NLP can be used to better understand these. In my master’s research, I’m using NLP to study narratives, both from a cultural values standpoint, but also towards better understanding how narratives impact people’s beliefs and behaviour, and influence societal discourse.
+I am a Master’s student in computer science at [McGill University](https://www.cs.mcgill.ca/) co-supervised by Prof. Derek Ruths and Prof. Andrew Piper as a part of the Network Dynamics Lab and .txtlab. I’m (very) broadly interested in social issues and social dynamics, and how NLP can be used to better understand these. In my master’s research, I’m using NLP to study narratives, both from a cultural values standpoint, but also towards better understanding how narratives impact people’s beliefs and behaviour, and influence societal discourse.
 
 Before starting my master’s I completed a Bachelor’s degree in Computer Science at Carleton University. Throughout my degree I had experiences working as a Machine Learning Intern at Kinaxis and a Data Scientist at Global Affairs Canada. I also volunteered as a Workshop Lead for Carleton University’s AI Society (CAIS).  
 
-In another life, I taught English as a foreign language in Japan, and in another other life, I studied Physics and Mathematics at the University of Ottawa and was briefly a solar cell researcher at the SUNLAB at uOttawa.
+In another life, I taught English as an Assistant Language Teacher in Japan, and in another other life, I studied Physics and Mathematics at the University of Ottawa and was briefly a solar cell researcher at the SUNLAB at uOttawa.
 {style="text-align: left;"}
