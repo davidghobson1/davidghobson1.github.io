@@ -124,4 +124,7 @@ I am a Master’s student in computer science at [McGill University](https://www
 Before starting my master’s I completed a Bachelor’s degree in Computer Science at [Carleton University](https://carleton.ca/scs/). During my degree, I had experiences working as a Machine Learning Intern at [Kinaxis](https://www.kinaxis.com/en) and a Data Scientist at [Global Affairs Canada](https://www.international.gc.ca/global-affairs-affaires-mondiales/home-accueil.aspx?lang=eng). I also volunteered as a Workshop Lead for [Carleton University’s AI Society](https://carletonai.com/).  
 
 In another life, I taught English as an Assistant Language Teacher in Japan, and in another other life, I studied Physics and Mathematics at the [University of Ottawa](https://www.uottawa.ca/faculty-science/physics) and was briefly a solar cell researcher at the [SUNLAB](https://sunlab.ca/).
+
+Outside of research, I enjoy being outdoors, going on adventures, cooking, and learning about world history, religions, psychology, and a bunch of other stuff. 
+
 {style="text-align: left;"}
