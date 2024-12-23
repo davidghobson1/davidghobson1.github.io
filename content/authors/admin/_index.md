@@ -92,11 +92,6 @@ social:
   - icon: envelope
     icon_pack: fas
     link: '/#contact'
-  - icon: sparkles
-    icon_pack: hero
-    link: https://bsky.app/profile/dhobso.bsky.social
-  - icon: hero/sparkles
-    link: https://bsky.app/profile/dhobso.bsky.social
   - icon: twitter
     icon_pack: fab
     link: https://twitter.com/DavHobson
