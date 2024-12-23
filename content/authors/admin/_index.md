@@ -92,17 +92,17 @@ social:
   - icon: envelope
     icon_pack: fas
     link: '/#contact'
-  - icon: bluesky
+  - icon: icon:brands/bluesky
     icon_pack: fab
     link: https://bsky.app/profile/dhobso.bsky.social
     label: Follow me on Bluesky
     display:
       header: true
-  - icon: x
+  - icon: twitter
     icon_pack: fab
     link: https://twitter.com/DavHobson
     label: Follow me on Twitter
-  - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
+  - icon: icon:ai/google-scholar # Alternatively, use `google-scholar` icon from `ai` icon pack
     icon_pack: fas
     link: https://scholar.google.com/citations?user=tdNhzwoAAAAJ
   - icon: github
