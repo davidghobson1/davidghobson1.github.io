@@ -95,7 +95,13 @@ social:
   - icon: bluesky
     icon_pack: ai
     link: https://bsky.app/profile/dhobso.bsky.social
-  - icon: twitter
+  - icon: custom/bluesky
+    icon_pack: custom
+    link: https://bsky.app/profile/dhobso.bsky.social
+  - icon: bluesky
+    icon_pack: ai
+    link: https://bsky.app/profile/dhobso.bsky.social
+  - icon: x
     icon_pack: fab
     link: https://twitter.com/DavHobson
     label: Follow me on Twitter
