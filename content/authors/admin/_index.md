@@ -93,7 +93,7 @@ social:
     icon_pack: fas
     link: '/#contact'
   - icon: bluesky
-    icon_pack: custom
+    icon_pack: ai
     link: https://bsky.app/profile/dhobso.bsky.social
   - icon: twitter
     icon_pack: fab
