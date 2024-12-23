@@ -95,7 +95,7 @@ social:
   - icon: bluesky
     icon_pack: brands
     link: https://bsky.app/profile/dhobso.bsky.social
-  - icon: x
+  - icon: twitter
     icon_pack: brands
     link: https://twitter.com/DavHobson
     label: Follow me on Twitter
