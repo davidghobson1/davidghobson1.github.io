@@ -95,13 +95,12 @@ social:
   - icon: bluesky
     icon_pack: brands
     link: https://bsky.app/profile/dhobso.bsky.social
-    label: Follow me on Bluesky
-    display:
-      header: true
   - icon: twitter
     icon_pack: fab
     link: https://twitter.com/DavHobson
     label: Follow me on Twitter
+    display:
+      header: true
   - icon: google-scholar # Alternatively, use `google-scholar` icon from `ai` icon pack
     icon_pack: ai
     link: https://scholar.google.com/citations?user=tdNhzwoAAAAJ
