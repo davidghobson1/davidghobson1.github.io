@@ -4,7 +4,7 @@ title: A Step towards Automated and Generalizable Tactile Map Generation using G
 authors:
 - David G. Hobson
 - Majid Komeili
-date: '2024-12-01'
+date: '2024-01-01'
 publishDate: '2024-12-23T04:04:58.937161Z'
 publication_types:
 - manuscript
