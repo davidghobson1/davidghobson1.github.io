@@ -30,8 +30,9 @@ bio: ''
 # Interests to show in About widget
 interests:
   - Natural Language Processing
-  - Narratives
+  - Narrative Understanding
   - Computational Social Science
+  - NLP for Positive Impact
 
 # Education to show in About widget
 education:
