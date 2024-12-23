@@ -92,8 +92,8 @@ social:
   - icon: envelope
     icon_pack: fas
     link: '/#contact'
-  - icon: brands/bluesky
-    icon_pack: fab
+  - icon: bluesky
+    icon_pack: brands
     link: https://bsky.app/profile/dhobso.bsky.social
     label: Follow me on Bluesky
     display:
@@ -102,8 +102,8 @@ social:
     icon_pack: fab
     link: https://twitter.com/DavHobson
     label: Follow me on Twitter
-  - icon: ai/google-scholar # Alternatively, use `google-scholar` icon from `ai` icon pack
-    icon_pack: fas
+  - icon: google-scholar # Alternatively, use `google-scholar` icon from `ai` icon pack
+    icon_pack: ai
     link: https://scholar.google.com/citations?user=tdNhzwoAAAAJ
   - icon: github
     icon_pack: fab
