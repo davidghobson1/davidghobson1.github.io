@@ -92,10 +92,7 @@ social:
   - icon: envelope
     icon_pack: fas
     link: '/#contact'
-  - icon: brands/bluesky
-    link: https://bsky.app/profile/dhobso.bsky.social
-  - icon: brands/bluesky
-    icon_pack: fab
+  - icon: "custom/bluesky"
     link: https://bsky.app/profile/dhobso.bsky.social
   - icon: brands/twitter
     icon_pack: fab
