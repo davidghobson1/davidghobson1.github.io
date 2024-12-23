@@ -92,10 +92,10 @@ social:
   - icon: envelope
     icon_pack: fas
     link: '/#contact'
-  - icon: brands/bluesky
-    # icon_pack: brands
+  - icon: bluesky
+    icon_pack: brands
     link: https://bsky.app/profile/dhobso.bsky.social
-  - icon: x
+  - icon: twitter
     icon_pack: fab
     link: https://twitter.com/DavHobson
     label: Follow me on Twitter
