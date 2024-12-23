@@ -92,8 +92,8 @@ social:
   - icon: envelope
     icon_pack: fas
     link: '/#contact'
-  - icon: bluesky
-    icon_pack: ai
+  - icon: org-x
+    icon_pack: brands
     link: https://bsky.app/profile/dhobso.bsky.social
   - icon: custom/bluesky
     icon_pack: custom
@@ -101,7 +101,7 @@ social:
   - icon: bluesky
     icon_pack: ai
     link: https://bsky.app/profile/dhobso.bsky.social
-  - icon: x
+  - icon: twitter
     icon_pack: fab
     link: https://twitter.com/DavHobson
     label: Follow me on Twitter
