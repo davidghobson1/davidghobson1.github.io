@@ -93,6 +93,8 @@ social:
     icon_pack: fas
     link: '/#contact'
   - icon: brands/bluesky
+    link: https://bsky.app/profile/dhobso.bsky.social
+  - icon: brands/bluesky
     icon_pack: fab
     link: https://bsky.app/profile/dhobso.bsky.social
   - icon: brands/twitter
