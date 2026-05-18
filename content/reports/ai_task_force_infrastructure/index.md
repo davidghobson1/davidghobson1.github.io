@@ -1,5 +1,5 @@
 ---
-title: Canadian AI Strategy Task Force: Infrastructure
+title: "Canadian AI Strategy Task Force: Infrastructure"
 summary: Policy recommendations to the Canadian federal government for a path towards Canadian sovereignty of AI infrastructure. (With Ian Rae, Sara Parker, and Derek Ruths – October 2025)
 # tags:
 #   - Demo
