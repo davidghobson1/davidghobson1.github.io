@@ -1,5 +1,5 @@
 ---
-title: Conspiratorial Claims and Institutional Distrust in Canada’s Online Ecosystem
+title: The relevance and role of Tenet Media personalities in Canadian political discussion
 summary: Exploring Russian narratives among the Tenet Media influencers and its influence on Canadian political discourse. (MEO – November 2024)
 # tags:
 #   - Demo

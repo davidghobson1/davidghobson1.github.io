@@ -1,5 +1,5 @@
 ---
-title: The relevance and role of Tenet Media personalities in Canadian political discussion 
+title: Conspiratorial Claims and Institutional Distrust in Canada’s Online Ecosystem 
 summary: Evaluating the spread and belief of anti-institutional conspiratorial claims within the Canadian information ecosystem. (CMTD – February 2026)
 # tags:
 #   - Demo

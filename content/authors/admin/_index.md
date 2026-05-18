@@ -21,8 +21,8 @@ role: Research Engineer
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: McGill University
-    url: https://www.cs.mcgill.ca/
+  - name: Centre for Media, Technology, and Democracy
+    url: https://www.mediatechdemocracy.com/
 
 # Short bio (displayed in user profile at end of posts)
 bio: ''
