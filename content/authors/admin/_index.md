@@ -17,7 +17,7 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Master's Student
+role: Research Engineer
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -29,14 +29,16 @@ bio: ''
 
 # Interests to show in About widget
 interests:
+  - Computational Social Science 
   - Natural Language Processing
   - Narrative Understanding
-  - Computational Social Science
-  - NLP for Positive Impact
 
 # Education to show in About widget
 education:
   courses:
+    - course: MSc in Computer Science
+      institution: McGill University
+      year: 2025
     - course: BCS in Artificial Intelligence and Machine Learning
       institution: Carleton University
       year: 2023
