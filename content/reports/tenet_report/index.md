@@ -1,6 +1,6 @@
 ---
-title: The relevance and role of Tenet Media personalities in Canadian political discussion 
-summary: Incident report about the influence of the Tenet Media influencers on Canadian political discourse (MNovemeber 2024). Published through the Canadian Digitial Media Research Network (CDMRN).
+title: Conspiratorial Claims and Institutional Distrust in Canada’s Online Ecosystem
+summary: Exploring Russian narratives among the Tenet Media influencers and its influence on Canadian political discourse. (MEO – November 2024)
 # tags:
 #   - Demo
 date: "2024-11-05T00:00:00Z"

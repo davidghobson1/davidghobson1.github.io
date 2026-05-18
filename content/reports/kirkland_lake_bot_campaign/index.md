@@ -1,6 +1,6 @@
 ---
 title: Bots and LLMs
-summary: Incident report about a bot campaign surrounding a political rally in Kirkland Lake, Ontario, Canada (August 2024). Published through the Canadian Digitial Media Research Network (CDMRN).
+summary: How a bot campaign spawned surrounding a Pierre Poilievre rally in Kirkland Lake, Ontario, and how people assigned blame to it online. (MEO – August 2024)
 # tags:
 #   - Demo
 date: "2024-08-28T00:00:00Z"
