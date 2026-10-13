@@ -1,0 +1,94 @@
+// Outlet logos in link buttons (see `logo:` in report front matter).
+.link-logo {
+  display: inline-block !important;
+  height: 1.1em;
+  width: 1.1em;
+  border-radius: 3px;
+  vertical-align: -0.2em;
+}
+
+// Substack icon (Font Awesome has none): the logo SVG used as a mask, so it takes the
+// surrounding text colour like the other icons. Use with `icon: substack`, `icon_pack: fab`.
+.fab.fa-substack {
+  width: 0.875em;
+  height: 1em;
+  background-color: currentColor;
+  -webkit-mask: url(/media/icons/substack.svg) no-repeat center / contain;
+  mask: url(/media/icons/substack.svg) no-repeat center / contain;
+  vertical-align: -0.125em;
+
+  &::before {
+    content: "";
+  }
+}
+
+// Reports section: smaller titles and author lists.
+#reports .view-showcase {
+  .article-title {
+    font-size: 1.05rem;
+  }
+  .article-style {
+    font-size: 0.8rem;
+    line-height: 1.5;
+  }
+}
+
+// Reports section: each report is a card (image left, text right).
+// Translucent colours so the card works in both light and dark mode.
+.report-card {
+  border: 1px solid rgba(127, 127, 127, 0.25);
+  background: rgba(127, 127, 127, 0.06);
+  overflow: hidden;
+}
+.report-card > .report-card-body {
+  padding: 1rem 1.25rem;
+}
+// Publisher/date line, with the Data Visualization button on the right.
+.report-card-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  margin: 0.35rem 0 0.25rem;
+
+  .article-metadata {
+    font-size: 0.85rem;
+    margin: 0;
+  }
+}
+.report-card-meta .btn.report-card-dataviz {
+  border-radius: 999px !important;
+  padding: 0.2rem 0.8rem;
+}
+.report-card-media {
+  min-height: 160px;
+
+  a {
+    display: block;
+    height: 100%;
+  }
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  // `image: {fit: contain}` in a report's front matter shows the whole image, uncropped.
+  img.fit-contain {
+    object-fit: contain;
+    background: #000;
+  }
+}
+
+// Reports section: narrower heading column (1/4) and wider card column (3/4) on large screens.
+// The theme gives every two-column section a 1/3 + 2/3 split.
+@media (min-width: 992px) {
+  #reports .row > .section-heading.col-lg-4 {
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+  #reports .row > .col-lg-8 {
+    flex: 0 0 75%;
+    max-width: 75%;
+  }
+}

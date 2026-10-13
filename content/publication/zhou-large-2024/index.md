@@ -2,7 +2,7 @@
 title: 'Large Scale Narrative Messaging around Climate Change: A Cross-Cultural Comparison'
 authors:
 - Haiqi Zhou
-- David Hobson
+- David G Hobson
 - Derek Ruths
 - Andrew Piper
 date: '2024-08-01'

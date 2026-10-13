@@ -91,15 +91,22 @@ education:
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "/#contact" for contact widget.
 social:
-  - icon: envelope
-    icon_pack: fas
-    link: '/#contact'
-  - icon: twitter
+  - icon: x-twitter
     icon_pack: fab
     link: https://twitter.com/DavHobson
     label: Follow me on Twitter
     display:
       header: true
+  - icon: bluesky
+    icon_pack: fab
+    link: https://bsky.app/profile/dhobso.bsky.social
+    label: Follow me on Bluesky
+    display:
+      header: true
+  - icon: substack # Custom icon, drawn in assets/scss/custom.scss
+    icon_pack: fab
+    link: https://substack.com/@davidghobson1
+    label: Read my Substack
   - icon: google-scholar # Alternatively, use `google-scholar` icon from `ai` icon pack
     icon_pack: ai
     link: https://scholar.google.com/citations?user=tdNhzwoAAAAJ
@@ -120,14 +127,24 @@ social:
 highlight_name: true
 ---
 
-I’m David and welcome to my website!
+I’m Dave and I'm a Research Engineer at the [Centre for Media, Technology, and Democracy](https://mediatechdemocracy.com/) at [McGill University](https://www.cs.mcgill.ca/). I study how media and technology are shaping our lives, and how we can use public policy to help ensure that technology works for everyone.
 
-I am a Master’s student in Computer Science at [McGill University](https://www.cs.mcgill.ca/) co-supervised by [Prof. Derek Ruths](https://derekruths.com/) and [Prof. Andrew Piper](https://andrewpiper.ai/about/about) as a part of the [Network Dynamics Lab](https://www.linkedin.com/company/network-dynamics-lab/) and [.txtlab](https://txtlab.org/). I’m (very) broadly interested in social issues and social dynamics, and how NLP can help us better understand them. In my master’s research, I’m using NLP to study narratives both from a cultural values standpoint, but also towards better understanding how narratives impact people’s beliefs and behaviour, and influence societal discourse. Overall, I’m an advocate for using AI and data science to help create positive change and make technology beneficial for everyone.
+I completed my master's degree in computer science at McGill, under the supervision of [Derek Ruths](https://derekruths.com/) and [Andrew Piper](https://andrewpiper.ai/about/about), where I studied computational narrative understanding, and specifically how we can quantify how people are portrayed in news articles. I'm broadly interested in social issues and social dynamics, and in better understanding what influences people’s beliefs and behaviour. I’m also a strong advocate for the use of AI and data science to help create positive change in the world.
+
+Before starting my master’s, I did a Bachelor’s degree in Computer Science at [Carleton University](https://carleton.ca/scs/) and spent time working as a Machine Learning Intern at [Kinaxis](https://www.kinaxis.com/en) and a Data Scientist at [Global Affairs Canada](https://www.international.gc.ca/global-affairs-affaires-mondiales/home-accueil.aspx?lang=eng). 
+
+In another life, I taught English as an [Assistant Language Teacher](https://interacnetwork.com/) in Japan, and in another other life, I studied Physics and Mathematics at the [uOttawa](https://www.uottawa.ca/faculty-science/physics).
+
+Outside of research, I enjoy being outdoors (backpacking, climbing, skiing, etc.), traveling, cooking, and learning about world history, religions, psychology, and a bunch of other stuff. 
+
+<!-- I’m David and welcome to my website!
+
+I am a Master’s student in Computer Science at [McGill University](https://www.cs.mcgill.ca/) co-supervised by [Prof. Derek Ruths](https://derekruths.com/) and [Prof. Andrew Piper](https://andrewpiper.ai/about/about) as a part of the [Network Dynamics Lab](https://www.linkedin.com/company/network-dynamics-lab/) and [.txtlab](https://txtlab.org/). I'm broadly interested in social issues and social dynamics, and how NLP can help us better understand them. In my master’s research, I’m using NLP to study narratives both from a cultural values standpoint, but also towards better understanding how narratives impact people’s beliefs and behaviour, and influence societal discourse. Overall, I’m an advocate for using AI and data science to help create positive change and make technology beneficial for everyone.
 
 Before starting my master’s, I completed a Bachelor’s degree in Computer Science at [Carleton University](https://carleton.ca/scs/). During my degree, I had experiences working as a Machine Learning Intern at [Kinaxis](https://www.kinaxis.com/en) and a Data Scientist at [Global Affairs Canada](https://www.international.gc.ca/global-affairs-affaires-mondiales/home-accueil.aspx?lang=eng). I also led workshops for [Carleton University’s AI Society](https://carletonai.com/).  
 
 In another life, I taught English as an [Assistant Language Teacher](https://interacnetwork.com/) in Japan, and in another other life, I studied Physics and Mathematics at the [University of Ottawa](https://www.uottawa.ca/faculty-science/physics) and was briefly a solar cell researcher at the [SUNLAB](https://sunlab.ca/).
 
-Outside of research, I enjoy being outdoors (backpacking, climbing, skiing, etc.), going on adventures, cooking, and learning about world history, religions, psychology, and a bunch of other stuff. 
+Outside of research, I enjoy being outdoors (backpacking, climbing, skiing, etc.), going on adventures, cooking, and learning about world history, religions, psychology, and a bunch of other stuff.  -->
 
 {style="text-align: left;"}

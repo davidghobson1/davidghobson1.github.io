@@ -176,7 +176,7 @@ sections:
   - block: collection
     id: publications
     content:
-      title: Publications
+      title: Select Publications
       # text: |-
       #   {{% callout note %}}
       #   Quickly discover relevant content by [filtering publications](./publication/).
@@ -211,7 +211,7 @@ sections:
       #     tag: Demo
     design:
       # Choose how many columns the section has. Valid values: '1' or '2'.
-      columns: '1'
+      columns: '2'
       view: showcase
       # For Showcase view, flip alternate rows?
       flip_alt_rows: false
@@ -263,9 +263,8 @@ sections:
       title: Contact
       subtitle:
       text: |-
-        The best way to reach me is via email:
       # Contact (add or remove contact options as necessary)
-      email: david [dot] hobson [at] mail [dot] mcgill [ccTLD for Canada] 
+      email: david [dot] hobson [at] mcgill [ccTLD for Canada] 
       # phone: 888 888 88 88
       # appointment_url: 'https://calendly.com'
       # address:
@@ -284,10 +283,14 @@ sections:
       #   latitude: '37.4275'
       #   longitude: '-122.1697'  
       contact_links:
-        - icon: twitter
+        - icon: x-twitter
           icon_pack: fab
-          name: twitter.com/DavHobson
+          name: '@DavHobson'
           link: 'https://twitter.com/DavHobson'
+        - icon: bluesky
+          icon_pack: fab
+          name: '@dhobso.bsky.social'
+          link: 'https://bsky.app/profile/dhobso.bsky.social'
       #   - icon: skype
       #     icon_pack: fab
       #     name: Skype Me

@@ -1,0 +1,83 @@
+{{ $item := .item }}
+{{ $widget := .page }}
+{{ $index := .index }}
+
+{{ $do_link := true }}
+{{ if $item.Params.external_link | or $item.Content }}
+  {{ $do_link = true }}
+{{ else }}
+  {{ $do_link = false }}
+{{ end }}
+
+{{ $link := $item.Params.external_link | default $item.RelPermalink }}
+{{ $target := .target }}
+
+{{/* Get summary. */}}
+{{ $summary := "" }}
+{{ if $item.Params.summary }}
+  {{ $summary = $item.Params.summary | markdownify | emojify }}
+{{ else if $item.Params.abstract }}
+  {{ $summary = $item.Params.abstract | markdownify | emojify }}
+{{ else if $item.Summary }}
+  {{ $summary = $item.Summary }}
+{{ end }}
+
+{{ $order := "" }}
+{{ if isset $widget "Params" }}
+  {{ if and ($widget.Params.design.flip_alt_rows | default true) (not (modBool $index 2)) }}
+    {{ $order = "order-md-2" }}
+  {{ end }}
+{{ else if and ($widget.design.flip_alt_rows | default true) (not (modBool $index 2)) }}
+  {{ $order = "order-md-2" }}
+{{ end }}
+
+
+<div class="col-lg-12 mb-4 view-showcase">
+  {{/* Custom: each report is a card, image on the left and text on the right. */}}
+  {{ $resource := partial "blox-core/functions/get_featured_image.html" $item }}
+  <div class="row no-gutters report-card">
+    <div class="col-12 {{ if $resource }}col-md-7{{ end }} report-card-body">
+      <div class="section-subheading article-title mb-0 mt-0">
+        {{- if $do_link}}<a href="{{ $link }}" {{ $target | safeHTMLAttr }}>{{end -}}
+        {{ $item.Title | markdownify | emojify }}
+        {{- if $do_link}}</a>{{end -}}
+      </div>
+
+      {{/* Show the author list, then the publisher and date, in place of the summary. */}}
+      {{ if $item.Params.authors }}
+      <div class="article-style">
+        {{ partial "page_metadata_authors" $item }}
+      </div>
+      {{ end }}
+
+      {{/* Publisher and date, with an optional rounded Data Visualization button on the same line. */}}
+      <div class="report-card-meta">
+        <span class="article-metadata">
+          {{ with $item.Params.publisher }}{{ . }} &middot; {{ end }}{{ $item.Date | time.Format "January 2006" }}
+        </span>
+        {{ with $item.Params.data_viz }}
+        <a class="btn btn-primary btn-sm report-card-dataviz" href="{{ . | safeURL }}" target="_blank" rel="noopener">
+          <i class="fas fa-chart-column mr-1"></i>Data Visualization
+        </a>
+        {{ end }}
+      </div>
+
+      <div class="btn-links">
+        {{ partial "page_links" (dict "page" $item "is_list" 0) }}
+      </div>
+
+    </div>
+    {{ with $resource }}
+    <div class="col-12 col-md-5 order-first report-card-media {{$order}}">
+        {{/* Use CSS to expand images to consistent widths rather than just Hugo as Hugo can significantly increase the
+        filesize of GIFs when processing them, e.g. 400kB --> 1.5MB */}}
+        {{ $image := . }}
+        {{ if ne $image.MediaType.SubType "gif" }}{{ $image = $image.Process "resize 540x webp" }}{{ end }}
+        {{if $do_link}}<a href="{{ $link }}" {{ $target | safeHTMLAttr }}>{{end}}
+          <img src="{{ $image.RelPermalink }}" height="{{ $image.Height }}" width="{{ $image.Width }}"
+              alt="{{ $item.Title }}" loading="lazy"{{ if eq $item.Params.image.fit "contain" }} class="fit-contain"{{ end }}{{ with $item.Params.image.position }} style="object-position: {{ . | safeCSS }};"{{ end }}>
+        {{if $do_link}}</a>{{end}}
+    </div>
+    {{end}}
+  </div>
+</div>
